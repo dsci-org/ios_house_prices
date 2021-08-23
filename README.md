@@ -1,6 +1,10 @@
 # IOS predict prices
 
-author: steeve laquitaine
+**author**: steeve laquitaine
+
+**Description**:  This is the codebase for a small iOS app that reports price predictions based on various house variables 
+such as the number of rooms, etc.,.. The predictions are calculated by a machine learning model trained 
+on the Boston housing dataset.
 
 # setup
 
@@ -19,8 +23,8 @@ python src/build_model.py
 # Create xcode project and add model
 
 1. open xcode
-2. select single view app - ios - swiftUI
-3. move `bhousing.mlmodel` to `core_ml_demo/` folder
+2. select single view app - ios - swiftUI (no need to select a team: None)
+3. Manually move `bhousing.mlmodel` to `core_ml_demo/` folder
 
 # Edit contentView.swift
 
