@@ -1,5 +1,5 @@
 pandas==1.1.1
-scikit-learn==0.19.2
 coremltools==4.0
-black
-pylint
+scikit-learn==0.19.2  # CoreMlTools is suited for scikit-learn version of <= 19.2 
+black                 # formatting
+pylint==2.9.6         # linting
