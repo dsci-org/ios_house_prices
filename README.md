@@ -24,7 +24,7 @@ python src/build_model.py
 
 # Edit contentView.swift
 
-see `contentView.swift`
+`contentView.swift` must be programmed with Apple's `Swift` programming language.
 
 # Build and run
 
